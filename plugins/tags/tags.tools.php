@@ -122,7 +122,7 @@ if (cot_module_active('forums'))
 {
 	require_once cot_incfile('forums', 'module');
 	$admin_tags_join_fields = ", f.*";
-	$admin_tags_join_tables = " LEFT JOIN $db_forum_post AS f
+	$admin_tags_join_tables = " LEFT JOIN $db_forum_posts AS f
 		ON t.tag_area = 'forums' AND t.tag_item = f.fp_id";
 }
 
