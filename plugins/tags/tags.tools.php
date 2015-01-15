@@ -27,7 +27,7 @@ $sorttype = empty($sorttype) ? 'tag' : $sorttype;
 $sort_type = array(
 	'tag' => $L['Code'],
 	'tag_cnt' => $L['Count'],
-	'length' => 'Длина'
+	'length' => $L['tags_length']
 );
 if ($sorttype == 'tag')
 {
